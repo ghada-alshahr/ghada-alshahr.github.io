@@ -15,8 +15,7 @@
       <a href="#about">About</a>
       <a href="#research">Research</a>
       <a href="#education">Education</a>
-      <a href="#service">Service</a>
-      <a href="#activities">Activities</a>
+      <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -24,8 +23,17 @@
 
   <main id="top" class="page-shell">
     <aside class="profile-card">
-      <div class="avatar" aria-label="Profile photo placeholder">
-        <span>GA</span>
+
+      <div class="avatar-wrap">
+        <img
+          class="profile-photo"
+          src="profile.jpg"
+          alt="Ghada Alshahrani"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+        />
+        <div class="avatar fallback-avatar" style="display:none;">
+          <span>GA</span>
+        </div>
       </div>
 
       <h1>Ghada Alshahrani</h1>
@@ -33,18 +41,18 @@
       <p class="affiliation">Lancaster University · UCREL</p>
 
       <p class="profile-summary">
-        Subjective NLP · Annotation Design · Human Disagreement · Arabic NLP
+        Natural Language Processing · Subjective NLP · Perspectivist NLP ·
+        Annotation Design &amp; Ground Truth Construction ·
+        Human Label Variation &amp; Disagreement · Arabic Toxic Language
       </p>
 
       <div class="profile-links">
         <a href="https://github.com/ghada-alshahr" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/ghada-alshahrani-432346425/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="#contact">Email</a>
+        <a href="mailto:g.alshahrani@lancaster.ac.uk">Email</a>
       </div>
 
-      <p class="small-note">
-        Manchester / Lancaster, United Kingdom
-      </p>
+      <p class="small-note">Lancaster, United Kingdom</p>
     </aside>
 
     <section class="content">
@@ -52,16 +60,24 @@
       <section id="about" class="section">
         <p class="eyebrow">About</p>
         <h2>About Me</h2>
+
         <p class="lead">
-          I am a PhD researcher in Natural Language Processing at Lancaster University.
-          My research investigates how annotation design shapes ground truth in subjective
-          NLP tasks, with a particular focus on Arabic toxic and offensive language.
+          I'm a PhD researcher in Natural Language Processing at Lancaster University.
+          My research focuses on subjective annotation, human label variation and disagreement,
+          and the evaluation of NLP systems, with applications in Arabic toxic language and hate speech.
         </p>
+
         <p>
-          I am interested in how decisions across the annotation pipeline — including data
-          collection, label design, annotator characteristics, annotation guidelines,
-          disagreement handling and aggregation — determine which human perspectives are
-          represented in NLP datasets and which are lost.
+          I am particularly interested in how people can legitimately interpret the same language
+          differently, and how NLP datasets and models can better represent this variation rather
+          than treating it simply as noise. My broader research interests include annotation design,
+          perspectivist NLP, disagreement-aware approaches, and ground-truth construction.
+        </p>
+
+        <p>
+          Ultimately, I aim to contribute to NLP methods and resources that more fairly and faithfully
+          represent the diversity of human perspectives in subjective language tasks, particularly
+          in Arabic.
         </p>
       </section>
 
@@ -72,10 +88,9 @@
         <div class="card-grid">
           <article class="research-card">
             <span class="card-number">01</span>
-            <h3>Annotation & Ground Truth</h3>
+            <h3>Subjective NLP</h3>
             <p>
-              Studying how annotation choices construct the labels that later function as
-              “ground truth” in NLP datasets and evaluations.
+              Studying NLP tasks in which language can support multiple legitimate human interpretations.
             </p>
           </article>
 
@@ -83,26 +98,44 @@
             <span class="card-number">02</span>
             <h3>Perspectivist NLP</h3>
             <p>
-              Exploring annotation approaches that preserve multiple valid human
-              interpretations instead of collapsing them too early.
+              Exploring approaches that preserve multiple valid perspectives rather than collapsing
+              subjective judgments into a single label or singular ground truth.
             </p>
           </article>
 
           <article class="research-card">
             <span class="card-number">03</span>
-            <h3>Human Disagreement</h3>
+            <h3>Annotation &amp; Ground Truth</h3>
             <p>
-              Treating disagreement as potentially meaningful perceptual variation rather
-              than automatically reducing it to annotation noise.
+              Investigating how annotation design and data practices influence the labels used to
+              train and evaluate NLP systems.
             </p>
           </article>
 
           <article class="research-card">
             <span class="card-number">04</span>
+            <h3>Human Label Variation</h3>
+            <p>
+              Examining disagreement and variation in human judgments as meaningful information about
+              subjective language.
+            </p>
+          </article>
+
+          <article class="research-card">
+            <span class="card-number">05</span>
+            <h3>NLP Evaluation</h3>
+            <p>
+              Interested in evaluation approaches that better account for subjectivity, uncertainty,
+              and variation in human judgments.
+            </p>
+          </article>
+
+          <article class="research-card">
+            <span class="card-number">06</span>
             <h3>Arabic Toxic Language</h3>
             <p>
-              Investigating subjective perception, cultural context and annotation design
-              in Arabic offensive and toxic language resources.
+              Applying these questions to Arabic toxic language and hate speech, including the role
+              of cultural and linguistic context.
             </p>
           </article>
         </div>
@@ -119,27 +152,30 @@
               <h3>PhD in Computer Science</h3>
               <p class="institution">Lancaster University, United Kingdom</p>
               <p>
-                Natural Language Processing, with research on annotation design,
-                perspectivism, human disagreement and Arabic toxic language.
+                Natural Language Processing, with research on subjective annotation,
+                human label variation, disagreement, and Arabic toxic language.
               </p>
             </div>
           </article>
 
-          <article class="timeline-item placeholder-item">
-            <div class="timeline-date">Add dates</div>
+          <article class="timeline-item">
+            <div class="timeline-date">2022 — 2022</div>
             <div>
-              <h3>Master’s Degree</h3>
-              <p class="institution">Add university and degree title</p>
-              <p>Add your dissertation title or specialisation if useful.</p>
+              <h3>MSc in Data Science</h3>
+              <p class="institution">University of Alabama at Birmingham, United States</p>
+              <p>
+                Graduate study in data science covering natural language processing, machine learning,
+                deep learning, data mining, algorithms, advanced algorithms, data structures,
+                and data-driven business applications.
+              </p>
             </div>
           </article>
 
-          <article class="timeline-item placeholder-item">
-            <div class="timeline-date">Add dates</div>
+          <article class="timeline-item">
+            <div class="timeline-date">2013 — 2017</div>
             <div>
-              <h3>Bachelor’s Degree</h3>
-              <p class="institution">Add university and degree title</p>
-              <p>Add honours, specialisation or a concise detail if relevant.</p>
+              <h3>BSc in Computer Information Systems</h3>
+              <p class="institution">King Khalid University, Abha, Saudi Arabia</p>
             </div>
           </article>
         </div>
@@ -147,7 +183,7 @@
 
       <section id="experience" class="section">
         <p class="eyebrow">Experience</p>
-        <h2>Research Experience</h2>
+        <h2>Research &amp; Professional Experience</h2>
 
         <div class="timeline">
           <article class="timeline-item">
@@ -156,54 +192,31 @@
               <h3>PhD Researcher</h3>
               <p class="institution">Lancaster University</p>
               <p>
-                Research on annotation practices, subjective language annotation,
-                perspectivist dataset design, disagreement analysis and Arabic NLP.
+                Research in subjective NLP, annotation design, human label variation and disagreement,
+                ground-truth construction, NLP evaluation, and Arabic toxic language.
               </p>
             </div>
           </article>
-        </div>
 
-        <p class="section-note">
-          Add previous professional or research roles here later. Do not add filler just to
-          make the page longer.
-        </p>
-      </section>
-
-      <section id="service" class="section">
-        <p class="eyebrow">Academic Community</p>
-        <h2>Appointments & Service</h2>
-
-        <div class="service-list">
-          <article class="service-item">
+          <article class="timeline-item">
+            <div class="timeline-date">2023 — 2024</div>
             <div>
-              <h3>Publication Chair</h3>
-              <p>3rd Workshop on NLP for Languages Using Arabic Script — AbjadNLP 2027</p>
-            </div>
-            <span>EACL 2027</span>
-          </article>
-        </div>
-      </section>
-
-      <section id="activities" class="section">
-        <p class="eyebrow">Selected Activities</p>
-        <h2>News & Academic Activities</h2>
-
-        <div class="news-list">
-          <article class="news-item">
-            <div class="news-date">Aug 2026</div>
-            <div>
-              <h3>Joined the AbjadNLP 2027 organising committee</h3>
-              <p>Serving as Publication Chair for the workshop co-located with EACL 2027.</p>
-            </div>
-          </article>
-
-          <article class="news-item">
-            <div class="news-date">Jul 2026</div>
-            <div>
-              <h3>UCREL Summer School 2026</h3>
+              <h3>Lecturer</h3>
+              <p class="institution">King Khalid University</p>
               <p>
-                Participated in the Lancaster UCREL Summer School on NLP, LLMs and
-                responsible/explainable AI, including a multilingual NER hackathon.
+                Undergraduate teaching in computing and information systems.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2017 — 2019</div>
+            <div>
+              <h3>Teaching Assistant</h3>
+              <p class="institution">King Khalid University</p>
+              <p>
+                Supported undergraduate teaching in computing, including programming-related coursework
+                such as R and object-oriented programming.
               </p>
             </div>
           </article>
@@ -211,22 +224,48 @@
       </section>
 
       <section id="skills" class="section">
-        <p class="eyebrow">Methods & Tools</p>
+        <p class="eyebrow">Methods &amp; Tools</p>
         <h2>Research Skills</h2>
 
         <div class="skills-grid">
           <div>
-            <h3>Research</h3>
-            <p>Annotation design · Dataset analysis · Disagreement analysis · Corpus analysis</p>
+            <h3>Research &amp; Writing</h3>
+            <p>
+              Academic writing · Literature review · Research synthesis · Scientific communication · LaTeX
+            </p>
           </div>
-          <div>
-            <h3>NLP & Data</h3>
-            <p>Python · R · Hugging Face · NLP evaluation · Transformer-based models</p>
-          </div>
+
           <div>
             <h3>Research Methods</h3>
-            <p>Quantitative analysis · Qualitative annotation analysis · Literature review</p>
+            <p>
+              Annotation design · Dataset analysis · Disagreement analysis · Quantitative analysis ·
+              Qualitative annotation analysis · Error analysis
+            </p>
           </div>
+
+          <div>
+            <h3>NLP &amp; Data</h3>
+            <p>
+              Natural language processing · Python · R · Hugging Face · Transformer-based models ·
+              NLP evaluation · Corpus analysis
+            </p>
+          </div>
+
+          <div>
+            <h3>Data Science</h3>
+            <p>
+              Machine learning · Deep learning · Data mining · Data structures · Algorithms
+            </p>
+          </div>
+
+          <div>
+            <h3>Research Areas</h3>
+            <p>
+              Subjective NLP · Perspectivist NLP · Human label variation · Ground-truth construction ·
+              Arabic toxic language
+            </p>
+          </div>
+
           <div>
             <h3>Languages</h3>
             <p>Arabic · English</p>
@@ -238,19 +277,14 @@
         <p class="eyebrow">Contact</p>
         <h2>Get in Touch</h2>
         <p>
-          For research, workshop or collaboration enquiries, contact me through Lancaster
-          University or LinkedIn.
+          For research, collaboration or academic enquiries, feel free to contact me.
         </p>
 
         <div class="contact-links">
+          <a href="mailto:g.alshahrani@lancaster.ac.uk">University Email</a>
           <a href="https://www.linkedin.com/in/ghada-alshahrani-432346425/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
           <a href="https://github.com/ghada-alshahr" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a href="mailto:YOUR-LANCASTER-EMAIL@lancaster.ac.uk">University Email</a>
         </div>
-
-        <p class="edit-warning">
-          Replace <strong>YOUR-LANCASTER-EMAIL@lancaster.ac.uk</strong> before publishing.
-        </p>
       </section>
 
       <footer>
