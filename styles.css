@@ -98,7 +98,7 @@ a {
 .profile-photo {
   display: block;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 20%;
   background: var(--accent-soft);
 }
 
