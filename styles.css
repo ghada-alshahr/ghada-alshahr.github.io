@@ -98,8 +98,8 @@ a {
 .profile-photo {
   display: block;
   object-fit: cover;
-  background: var(--accent-soft);
   object-position: center 30%;
+  background: var(--accent-soft);
 }
 
 .avatar {
