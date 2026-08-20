@@ -199,6 +199,10 @@ h3 {
   line-height: 1.65;
   color: var(--dark);
 }
+.about-text {
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
 
 .card-grid,
 .skills-grid {
