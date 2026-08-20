@@ -99,6 +99,7 @@ a {
   display: block;
   object-fit: cover;
   background: var(--accent-soft);
+  object-position: center 30%;
 }
 
 .avatar {
